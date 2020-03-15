@@ -1,0 +1,155 @@
+* {
+    margin:0
+    padding: 0
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #191919;
+    color: #f2f2f2;
+}
+
+.logo-container {
+   background-image: linear-gradient(180deg, rgba(166, 213, 245, 1), rgba(9, 189, 186, 0));
+   display: flex;
+   margin-top: -8px;
+   margin-left: -8px;
+   margin-right: -10px;
+   width:auto;
+   height:18em;
+}
+
+img {
+    padding-left:1em;
+}
+span {
+    color: #F0F0F0;
+    font-size: 115%;
+    letter-spacing: 5px;
+    padding-left: .8em;
+}
+
+.about {
+   margin-left: 1em;
+   margin-bottom:1em;
+   font-size: 1em;
+
+}
+
+a {
+   font-weight:bold;
+   padding:.2em 1em;
+   margin-left:.8em;
+   border: 2px solid white;
+   background: #2878e0;
+   letter-spacing: .1em;
+}
+
+a:hover {
+cursor: pointer;
+background:none;
+color:#2878e0;
+border:2px solid #2878e0;
+}
+
+.dates {
+    font-size: small;
+}
+
+.duties {
+    line-height: 3em;
+}
+
+.contacts {
+    font-size: small;
+    border:2px solid #2878e0;
+    text-align: center;
+    margin-top:2.5em;
+}
+
+h3 {
+    padding-left: 2em;
+}
+
+.info
+{
+    line-height: 2em;
+    list-style-type: none;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px){
+    .about {
+        font-size:14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   h2, p {
+    font-size:16px;
+   } 
+
+   .about {
+       max-height:500rem;
+   }
+   span {
+       font-size:1.5rem;
+   }
+}
+
+@media only screen and (max-width: 414px) {
+
+    span {
+        font-size:20px;
+        padding-left:0;
+        letter-spacing:3px;
+    }
+
+    .about {
+        font-size:7px;
+        max-height:300rem;
+    }
+
+    h2, p {
+        text-align: justify;
+    }
+
+    @media only screen and (max-width: 375px) {
+        span {
+            font-size:12px;
+            letter-spacing:2px;
+        }
+
+        .about {
+            max-height:300rem;
+        }
+
+        @media only screen and (max-width: 320px) {
+        
+            img {
+            width:40%;
+            height: 65%;
+            margin-top: 20px;
+            }
+
+            header {
+                height: 15rem;
+            }
+
+            .about {
+                margin: 0;
+                max-height:200rem;
+            }
+
+            h2, p {
+                font-size:.8rem;
+            }
+
+            a {
+                font-size:12px;
+            }
+        }
