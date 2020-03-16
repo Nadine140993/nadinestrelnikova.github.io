@@ -37,6 +37,10 @@ span {
 
 }
 
+#content {
+    display:none;
+}
+
 a {
    font-weight:bold;
    padding:.2em 1em;
